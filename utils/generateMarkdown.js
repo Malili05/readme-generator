@@ -23,6 +23,9 @@ function renderLicenseSection(license) {
 
   `
 }
+function renderGithub(questions) {
+  return `[${questions}](https://github.com/${questions})`
+}
 
 
 // TODO: Create a function to generate markdown for README
@@ -47,6 +50,12 @@ ${answers.usage}
 
 ## Credits
 ${answers.credits}
+
+## Tests
+
+## Questions
+- [Github ] ${renderGithub(answers.questions)}
+- [Email with more questions ](mailto:${answers.email})
 
 ${renderLicenseSection(answers.license)}
 

@@ -31,12 +31,22 @@ inquirer
     type:"input",
     name: "usage",
     message: "How does the user use this application?",
-    }
+    },
     {
     type:"input",
     name: "credits",
     message: "Did anyone else contribute to this application? (put N/A if nobody else helped)",
-    }
+    },
+    {
+    type:"input",
+    name: "questions",
+    message: "enter your Github username",
+    },
+    {
+    type:"input",
+    name: "email",
+    message: "enter your email",
+    },
   ])
   .then((answers) => {
     console.log(answers.name);
