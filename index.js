@@ -32,6 +32,11 @@ inquirer
     name: "usage",
     message: "How does the user use this application?",
     }
+    {
+    type:"input",
+    name: "credits",
+    message: "Did anyone else contribute to this application? (put N/A if nobody else helped)",
+    }
   ])
   .then((answers) => {
     console.log(answers.name);

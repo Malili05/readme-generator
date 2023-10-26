@@ -45,6 +45,9 @@ ${answers.installation}
 ## Usage
 ${answers.usage}
 
+## Credits
+${answers.credits}
+
 ${renderLicenseSection(answers.license)}
 
   `;
