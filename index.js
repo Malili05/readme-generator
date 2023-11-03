@@ -68,7 +68,7 @@ inquirer
 
     console.log(template);
 // // TODO: Create a function to write README file
-    fs.writeFile("README.md", template, function () {
+    fs.writeFile("READMEsample.md", template, function () {
       console.log("Success!");
     });
   });
