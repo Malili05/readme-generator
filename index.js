@@ -18,10 +18,20 @@ inquirer
     message: "What is the purpose of this application?",
     },
     {
-    type: "input",
-    name: "license",
-    message: "What is the license used for this application?",
+      type: "list",
+      name: "license",
+      message: "What is the license used for this?",
+      choices: ["MIT","Apache 2.0","ISC","Mozilla Public"]
     },
+    // {
+    // message: 'Select a license',
+    // choices: [
+    //   { name: 'MIT', value: 'mit' ],
+    //   { name: 'apache', value: 'apache' },
+    //   { name: 'gnu', value: 'GNU GPL' },
+
+    // ],
+    // },
     {
     type:"input",
     name: "installation",

@@ -9,9 +9,9 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return `[Link to ${license}](https://www.google.com/search?q=${license}+license)`
+ return `[Link to ${license}](https://www.google.com/search?q=${license}+license)`
 }
-
+// needs to be an if statement to generate the link in the table of contents to go to lincese section and doesnt make a link if none is selected
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -40,7 +40,7 @@ ${answers.purpose}
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [license](#License)
+- [License](#License)
 
 ## Installation
 ${answers.installation}
